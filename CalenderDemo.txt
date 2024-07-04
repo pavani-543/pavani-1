@@ -1,0 +1,16 @@
+import java.util.*;
+class CalenderDemo
+{
+ public static void main(String args[])
+ {
+  Calender c=Calender.getInstance();
+  int day=c.get(Calender.DATE);
+  int month=c.get(Calender.MONTH);
+  int year=c.get(Calender.YEAR);
+  System.out.println("cuurent Date:"+day+"-"+month+"-"+year);
+  int hour=c.get(Calender.HOUR);
+  int minute=c.get(Calender.MINUTE);
+  int second=c.get(Calender.SECOND);
+  System.out.println("currenttime:"+hour+:""+minute+:"+seconds");
+  }
+ }

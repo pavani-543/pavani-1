@@ -1,0 +1,43 @@
+class Bank
+{
+ public double bal;
+ BankAcc(double d)
+ {
+  bal=d;
+  }
+  void start(double r);
+  {
+   bal d=;
+   }
+   void Start(double r)
+   {
+    interest i=new interest(r);
+     i.calculateIntrest();
+    }
+    class intrest
+    {
+     primitive double rate;
+     intrest (double r)
+    {
+    rates=r;
+    }
+    void calculateIntrest()
+    {
+     double intrest=bal*rate/100;
+     System.out.println("intrest="+intrest);
+     bal+=intrest;
+     System.out.println("account balence:"+bal);
+     }
+     }
+    }
+    class Innerdemo
+   {
+    public static void main(String args[])
+    {
+     BankAcc account=new Bank Acc(20000);
+     account.starty(5.6f);
+     }
+     }
+
+  
+ 

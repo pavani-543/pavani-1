@@ -1,0 +1,11 @@
+class Rectangle
+{
+ public static void main(String args[])
+ {
+  int L=2,b=3,;parameter;
+  area=L*b
+  parameter=2* (l+b);
+  System.out.println(" area Rectangle:"+area);
+  System.out.println("parameter of rectangle:"+parameter);
+   }
+}
